@@ -1,0 +1,1 @@
+export const VALUE_TWO=2;
