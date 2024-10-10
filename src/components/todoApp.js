@@ -24,7 +24,7 @@ const TodoApp = () => {
           onChange={handleChange}
         />{" "}
         &nbsp;&nbsp;
-        {text.length > VALUE_TWO ? <button onClick={handleAdd}>ADD</button> : ""}
+        <button onClick={handleAdd}>ADD</button>
       </>
       <>
         {list.length > 0 ? (
